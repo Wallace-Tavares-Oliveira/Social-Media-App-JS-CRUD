@@ -5,5 +5,28 @@ body {
 
 .container {
     display: flex;
-    gap: 50px; /* Verificar daqui 9:48 de video */
+    gap: 50px; /* espaço para linhas e colunas ao mesmo tempo */
+
 }
+
+.images {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+#posts {
+    width: 400px;
+}
+
+#posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    gap: 25px;
+}
+
