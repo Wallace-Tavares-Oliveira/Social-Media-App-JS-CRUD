@@ -5,14 +5,20 @@ body {
 
 .container {
     display: flex;
+    padding: 10px;
+    width: 100%;
     gap: 50px; /* espaço para linhas e colunas ao mesmo tempo */
-
+    border: 1px solid black;
 }
 
 .images {
     cursor: pointer;
     width: 20px;
     height: 20px;
+}
+
+.textarea, #input, .right {
+    width: 100%;
 }
 
 #posts {
@@ -30,3 +36,6 @@ body {
     gap: 25px;
 }
 
+#msg {
+    color: red;
+}

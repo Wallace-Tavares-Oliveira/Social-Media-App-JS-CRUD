@@ -19,6 +19,7 @@
                 <br><br>
                 <textarea name="" id="input" cols="30" rows="10"></textarea>
                 <br><br>
+                <div id="msg"></div>
                 <button type="submit">Post</button>
             </form>
         </div>
@@ -28,15 +29,15 @@
                 <div>
                     <p>Post 1</p>
                     <span class="options">
-                        <img class="images" src="img/pen-to-square-regular.svg" alt="">
-                        <img class="images" src="img/trash-can-regular.svg" alt="">
+                        <img onClick="editPost(this)" class="images" src="img/pen-to-square-regular.svg" alt="">
+                        <img onClick="deletePost(this)" class="images" src="img/trash-can-regular.svg" alt="">
                     </span>
                 </div>
                 <div>
                     <p>Post 2</p>
                     <span class="options">
-                        <img class="images" src="img/pen-to-square-regular.svg" alt="">
-                        <img class="images" src="img/trash-can-regular.svg" alt="">
+                        <img onClick="editPost(this)" class="images" src="img/pen-to-square-regular.svg" alt="">
+                        <img onClick="deletePost(this)" class="images" src="img/trash-can-regular.svg" alt="">
                     </span>
                 </div>
                 <div></div>
@@ -48,6 +49,6 @@
         </div>
     </div>
 </body>
-<script src="main.js"></script>F
+<script src="main.js"></script>
 
 </html>
